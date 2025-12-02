@@ -1,4 +1,4 @@
-package entidades;
+package com.unileste.projetofinal.entidades;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,9 +47,7 @@ public class Cliente {
         this.endereco = endereco;
     }
 
-    public void AdicionarConta(Conta conta){
-        contas.add(conta);
-    }
+    public void AdicionarConta(Conta conta){ contas.add(conta); }
 
     @Override
     public boolean equals(Object o){
